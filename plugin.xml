@@ -3,7 +3,7 @@
         id="com.michaelbelkin.cordova-plugin-user-defaults"
         version="1.0.0">
 
-  <name>Hello</name>
+  <name>UserDefaults</name>
 
   <engines>
     <engine name="cordova" version=">=3.4.0"/>

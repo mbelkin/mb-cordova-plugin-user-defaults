@@ -9,7 +9,7 @@
 
 @implementation MBUserDefaults
 
-- (void)saveValue:(CDVInvokedUrlCommand*)command
+- (void)saveValue:(CDVInvokedUrlCommand *)command
 {
 	[self.commandDelegate runInBackground:^
 	{
@@ -35,7 +35,7 @@
 	}];
 }
 
-- (void)saveValueToAppGroup:(CDVInvokedUrlCommand*)command
+- (void)saveValueToAppGroup:(CDVInvokedUrlCommand *)command
 {
 	[self.commandDelegate runInBackground:^
 	{
@@ -67,7 +67,7 @@
 	}];
 }
 
-- (void)getValue:(CDVInvokedUrlCommand*)command
+- (void)getValue:(CDVInvokedUrlCommand *)command
 {
 	[self.commandDelegate runInBackground:^
 	{
@@ -82,7 +82,7 @@
 	}];
 }
 
-- (void)getValueFromAppGroup:(CDVInvokedUrlCommand*)command
+- (void)getValueFromAppGroup:(CDVInvokedUrlCommand *)command
 {
 	[self.commandDelegate runInBackground:^
 	{

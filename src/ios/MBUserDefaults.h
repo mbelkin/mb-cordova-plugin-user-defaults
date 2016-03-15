@@ -9,4 +9,9 @@
 
 @interface MBUserDefaults : CDVPlugin
 
+- (void)saveValue:(CDVInvokedUrlCommand *)command;
+- (void)saveValueToAppGroup:(CDVInvokedUrlCommand *)command;
+- (void)getValue:(CDVInvokedUrlCommand *)command;
+- (void)getValueFromAppGroup:(CDVInvokedUrlCommand *)command;
+
 @end
